@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(black, blue, violet);
+  color: #fff;
+  padding-top: 80px; /* offset for fixed header */
+  text-align: center;
+}
+/* Header */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .logo {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.header nav ul li {
+  margin: 0 15px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header nav ul li a:hover {
+  color: #e63946;
+}
+
+/* Confirmation */
+.confirmation h2 {
+  padding-top:40px ;
+  font-size: 42px;
+  color: #ffcc00;
+  margin-top: 40px;
+}
+.confirmation p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Map */
+.map {
+  margin: 40px auto;
+}
+.map h3 {
+  font-size: 28px;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+.map iframe {
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+/* Extra Info */
+.extra h3 {
+  font-size: 28px;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+.extra ul {
+  list-style: none;
+  padding: 0;
+}
+.extra ul li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+.btn {
+  display: inline-block;
+  background: #e63946;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.btn:hover {
+  background: #d62828;
+}
+
+/* Footer */
+.footer {
+  background: rgb(229, 227, 227);
+  color: #111;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

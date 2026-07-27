@@ -1,0 +1,596 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Header style */
+.header-wrapper{
+    background-color: white;
+    font-weight: 200;
+    font-size: 0.75em;
+    position:fixed;
+    width:100%;
+    align-items: center;
+}
+.header-wrapper ul{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.internal-wrapper{
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header-link-wrapper ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.header-link-wrapper ul{
+    list-style: none;
+}
+.header-link-wrapper ul li{
+    display: inline-block;
+    padding: 14px 0 8px;
+    height: 25px;
+    opacity: 0.8;
+}
+.header-link-wrapper ul li:hover{
+    opacity: 1;
+}
+.logo-link, .search-link, .cart-link{
+    width: 18px;
+    display: block;
+}
+.header-link-wrapper ul li.logo-link{
+    padding: 12px 0 10px;
+}
+.header-link-wrapper ul li.search-link{
+    padding: 14px 0 8px;
+}
+
+
+/*Footer styling*/
+.footer-wrapper{
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: .65em;
+}
+.upper-text-container{
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+}
+.upper-text-container a{
+    text-decoration: none;
+    color: #515154;
+}
+.upper-text-container a:hover{
+    text-decoration: underline;
+}
+.footer-link-wrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer-wrapper ul {
+    list-style: none;
+    padding-bottom: 20px;
+
+}
+.footer-wrapper ul li{
+    padding: 5px 0;
+    font-size: 0.9em;
+}
+.footer-link-wrapper a {
+    text-decoration: none;
+    color: #515154;
+}
+.footer-link-wrapper a:hover {
+    text-decoration: underline;
+}
+.footer-link-wrapper h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.my-apple-wrapper{
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.copyright-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+.footer-links-terms ul li{
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li:last-child{
+    border-right: 0px;
+}
+.footer-links-terms ul li a{
+    text-decoration: none;
+    color: #515154;
+}
+.footer-links-terms ul li a:hover{
+    text-decoration: underline;
+}
+.footer-country{
+    display: inline-block;
+}
+.flag-wrapper{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-country-name{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+
+/* Sections */
+
+/* First Higlight Section */
+.Section-1{
+
+    background-image: url("Banners/double-iphone-banner.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+.product-title{
+    font-weight: 700;
+    font-size: 56px;
+    color: black;
+    margin-top: -40px;
+    padding-top: 20px;
+}
+
+.Brief-Description{
+    font-size: 26px;
+    color: black;
+}
+
+.Sec-Link{
+    padding: 15px 0;
+}
+
+.Sec-Link ul{
+    list-style: none;
+}
+
+.Sec-Link ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.Sec-Link ul li a{
+    
+    color:rgba(213, 203, 203, 0.964);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px;
+    margin:8px;
+    border-radius: 20px;
+    border:solid 1px;
+    border-color: #06c;
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+/* Filled button: always blue */
+.btn-F {
+  background-color: #0071e3;
+  color: white;
+  border: none;
+}
+.btn-F:hover {
+  background-color: #0071e3; /* stays the same */
+  color: white;
+}
+
+/* Outline button: white → blue on hover */
+.btn-Nf {
+  background-color: white;
+  color: #0071e3;
+  border: 1px solid #0071e3;
+}
+.btn-Nf:hover {
+  background-color: #0071e3; /* fills blue */
+  color: white;              /* text flips to white */
+}
+
+
+
+
+/* Second Higlight Section */
+.Section-2{
+    background-image: url("Banners/fathers-day-banner.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fff;
+}
+
+
+.title{
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 10px;
+    color:black;
+}
+
+.description{
+    font-size: 26px;
+    padding: 10px 0;
+    color:black
+}
+
+
+
+/* Third Higlight Section */
+.Section-3{
+    background-image: url('Banners/mac-and-ipad-banner.jpg');
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+
+
+/* Fourth Higlight Section */
+.Section-4{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding-top: 40px;
+}
+
+.left-side{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    
+}
+
+.title{
+    padding-top: 15px;
+}
+.left-side .description{
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.Section-4 .left-side {
+    background-image: url("Banners/macbook-promo-banner.jpg");
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
+}
+
+.right-side{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%;
+    
+}
+
+.Section-4 .right-side{
+    background-image: url("Banners/ipads-banner.jpg");
+}
+
+.description{
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+/* Fifth Higlight Section */
+.Section-5{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding-top: 40px;
+}
+
+.Section-5 .left-side{
+    background-image: url("Banners/promo_macbook_pro__c9td9w1mc8ia_large.jpg");
+    padding-top: 50px;
+    height: 530px;
+}
+
+.Section-5 .title{
+    color: white;
+
+}
+.description-s5 {
+    color: white;
+}
+
+.Section-5 .right-side{
+    background-image: url("Banners/promo_apple_watch_series_11__gnlwqxe1jlu2_large.jpg");
+    color:black;
+    background-size: initial;
+    background-position: bottom;
+}
+
+.Section-5 .description{
+    color: black;
+}
+
+.logo{
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tvshow-logo{
+    padding: 180px 0 200px;
+}
+
+/* Sixth Higlight Section */
+.Section-6{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding-top: 40px;
+}
+
+.Section-6 .left-side{
+    background-image: url("Banners/airpods-and-card-banner.jpg");
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
+    
+}
+
+.Section-6 .top-logo{
+    padding-top: 5px;
+}
+
+.Section-6 .right-side{
+    background-image: url("Banners/iphone-trade-banner.jpg");
+    background-size: initial;
+    background-position: bottom;
+    
+}
+
+/* Slide Part (Section 7) */
+
+.entertainment {
+    background: #f5f5f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.entertainment h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+}
+
+/* Main Carousel */
+
+.carousel {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-track {
+    display: flex;
+    width: max-content;
+    gap: 15px;
+}
+
+.carousel-item {
+    scroll-snap-align: center;
+    position: relative;
+    width: 100vw;
+    max-width: 1200px;
+    flex-shrink: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-info {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.carousel-info button {
+    background: rgba(255,255,255,.9);
+    border: none;
+    border-radius: 980px;
+    padding: 10px 22px;
+    cursor: pointer;
+}
+
+.carousel-info p {
+    margin: 0;
+}
+
+/* Small Card Carousel */
+.mini-carousel {
+    margin-top: 18px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.mini-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.mini-track {
+    display: flex;
+    gap: 12px;
+    padding: 0 20px 20px;
+    width: max-content;
+}
+
+.mini-card {
+    width: 220px;
+    height: 125px;
+    border-radius: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.mini-card:hover {
+    transform: scale(1.03);
+}
+
+.mini-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Styling the area of the slides */
+
+
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* Header: only logo, search, cart */
+  .header-wrapper ul {
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  .header-wrapper .header-link-wrapper ul li {
+    display: none;
+  }
+  
+  .header-wrapper .header-link-wrapper ul li:first-child,   /* Apple logo */
+  .header-wrapper .header-link-wrapper ul li:nth-last-child(2), /* Search icon */
+  .header-wrapper .header-link-wrapper ul li:last-child {      /* Cart icon */
+    display: inline-block;
+  }
+
+  /* Hero Section */
+  .product-title {
+    font-size: 32px;
+  }
+  .Brief-Description {
+    font-size: 18px;
+  }
+  .Sec1-image img {
+    max-width: 90%;
+  }
+
+  /* General section titles/descriptions */
+  .title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .description, .description-s5 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    max-width: 90%;
+  }
+
+  /* Split sections (4, 5, 6) collapse neatly */
+  .Section-4, .Section-5, .Section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px;
+    gap: 40px;              /* space between left and right blocks */
+  }
+
+  .Section-4 .left-side,
+  .Section-4 .right-side,
+  .Section-5 .left-side,
+  .Section-5 .right-side,
+  .Section-6 .left-side,
+  .Section-6 .right-side {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 8px;     /* optional: rounded corners for neatness */
+  }
+
+  /* Footer stacks neatly */
+  .Footer-Links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .Copyright-Info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
